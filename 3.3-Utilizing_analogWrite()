@@ -1,0 +1,19 @@
+int redLED = 7;
+int x;
+int blinkTime = 500;
+void setup() {
+  
+   for (x = 11; x >= 9; x = x -1){
+     analogWrite(x,255);
+     delay(500);
+     analogWrite(x,102);
+    delay(500);
+    analogWrite(x,0);
+     delay(500);
+     
+   }
+}
+
+void loop() {
+   
+}
